@@ -1,0 +1,24 @@
+After checking your files and your firewall, please follow this exact sequence:
+
+Stop any running servers in your terminal by pressing Ctrl + C.
+
+Open a new, fresh Terminal in PyCharm.
+
+Set the API key: $env:GEMINI_API_KEY="AIzaSyA2rjBnlC0yx6KRVSjfgi1mPhcQTDzaitI"
+
+Start the backend: py api.py
+
+Leave the terminal running.
+
+Open index.html in your browser.
+
+Perform a Hard Refresh (Ctrl + Shift + R) to clear any old files.
+
+Try the "Analyze Profile" button.   
+
+
+
+from webapp
+
+
+streamlit run app.py
